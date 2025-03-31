@@ -3,6 +3,7 @@
 
     --black-color: #000000;
     --white-color: #FFFFFF;
+    --blue-color: #203948;
 
     /* -------------font-size---------- */
     --text-sm: 12px;
@@ -28,7 +29,9 @@
 .bg-white-color {
     background: var(--white-color);
 }
-
+.bg-blue-color{
+background: var(--blue-color);
+}
 .fs-12 {
     font-size: var(--text-sm);
 }
