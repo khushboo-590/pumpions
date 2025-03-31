@@ -11,7 +11,8 @@
 }
 
 .lh-204 {
-        line-height: 204.5%;}
+    line-height: 204.5%;
+}
 
 .lh-229 {
     line-height: 229%;
@@ -103,51 +104,64 @@
 .top-140 {
     top: 140px !important;
 }
-.bottom-0{
+
+.bottom-0 {
     bottom: 0;
 }
-.pt-199{
+
+.pt-199 {
     padding-top: 199px;
 }
-.pb-43{
+
+.pb-43 {
     padding-bottom: 43px;
 }
-.pt-56{
+
+.pt-56 {
     padding-top: 56px;
 }
-.top-0{
+
+.top-0 {
     top: 0;
 }
-.max-w-1056{
+
+.max-w-1056 {
     max-width: 1056px;
 }
-.z-1{
+
+.z-1 {
     z-index: 1;
 }
 
-.top-56{
+.top-56 {
     top: 56px;
 }
-.top-148{
+
+.top-148 {
     top: 148px;
 }
+
 /* < !-- --------------------PEAK AT THE SUNSET------------- --> */
-.section-2{
+.section-2 {
     background-image: url(/assets/images/png/section-2\ -img.png);
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: cover;
-        width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
 }
-.pt-17{
+
+.pt-17 {
     padding-top: 17px;
 }
-.pt-20{
+
+.pt-20 {
     padding-top: 20px;
 }
-.pt-102{
+
+.pt-102 {
     padding-top: 102px;
 }
+
 .slider-container {
     width: 100%;
     overflow: hidden;
@@ -195,6 +209,50 @@
     width: 12.5%;
     height: auto;
 }
-.pb-90{
+
+.pb-90 {
     padding-bottom: 90px;
+}
+
+/* < !-- --------------Community+Funding+Sunset---------- --> */
+.top-10 {
+    top: -70px !important;
+}
+.gap-20{
+    gap: 20px;
+}
+.mt-16{
+    margin-top: 16px;
+}
+.mt-20{
+    margin-top: 20px;
+}
+.mt-125{
+    margin-top: 125px;
+}
+.gap-29{
+    gap: 29px;
+}
+.pt-6{
+    padding-top: 6px;
+}
+.cupboard-box{
+    padding: 26px 23px;
+}
+.max-w-135{
+    max-width: 135px;
+}
+.fs-6{
+font-size: 6.52849px !important;
+line-height: 204.5%;
+}
+/* ---------------PUMPMAP----------------- */
+.max-w-699{
+    max-width: 699px;
+}
+.mt-50{
+    margin-top: 50px;
+}
+.gap-10{
+    gap: 10px;
 }

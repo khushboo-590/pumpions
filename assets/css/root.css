@@ -6,6 +6,7 @@
     --blue-color: #203948;
 
     /* -------------font-size---------- */
+    --text-default: 6px;
     --text-sm: 12px;
     --text-md: 14px;
     --text-lg: 16px;
@@ -35,7 +36,9 @@ background: var(--blue-color);
 .fs-12 {
     font-size: var(--text-sm);
 }
-
+/* .fs-6{
+    font-size: var(--text-default);
+} */
 .fs-14 {
     font-size: var(--text-md);
 }
