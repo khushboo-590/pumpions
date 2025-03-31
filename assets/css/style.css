@@ -1,0 +1,18 @@
+@import url(/assets/css/root.css);
+/* --------line-height-------- */
+.lh-130{
+    line-height: 130%;
+}
+.lh-202 {
+    line-height: 202%;
+}.lh-204 {
+    line-height: 204%;
+}.lh-229 {
+    line-height: 229%;
+}
+.text-uppercase{
+    
+}
+.text-center{
+    text-align: center;
+}

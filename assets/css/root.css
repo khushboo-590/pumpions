@@ -1,0 +1,54 @@
+:root {
+    /* ---------------font-color-------- */
+
+    --black-color: #000000;
+    --white-color: #FFFFFF;
+
+    /* -------------font-size---------- */
+    --text-sm: 12px;
+    --text-md: 14px;
+    --text-lg: 16px;
+    --text-xl: 20px;
+    --text-2xl: 24px;
+    --text-3xl: 36px;
+}
+
+.fc-black-color {
+    color: var(--black-color);
+}
+
+.bg-black-color {
+    background: var(--black-color);
+}
+
+.fc-white-color {
+    color: var(--white-color);
+}
+
+.bg-white-color {
+    background: var(--white-color);
+}
+
+.fs-12 {
+    font-size: var(--text-sm);
+}
+
+.fs-14 {
+    font-size: var(--text-md);
+}
+
+.fs-16 {
+    font-size: var(--text-lg);
+}
+
+.fs-20 {
+    font-size: var(--text-xl);
+}
+
+.fs-24 {
+    font-size: var(--text-2xl);
+}
+
+.fs-36 {
+    font-size: var(--text-3xl);
+}
