@@ -11,8 +11,7 @@
 }
 
 .lh-204 {
-    line-height: 204%;
-}
+        line-height: 204.5%;}
 
 .lh-229 {
     line-height: 229%;
@@ -131,4 +130,71 @@
 }
 .top-148{
     top: 148px;
+}
+/* < !-- --------------------PEAK AT THE SUNSET------------- --> */
+.section-2{
+    background-image: url(/assets/images/png/section-2\ -img.png);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 100%;
+}
+.pt-17{
+    padding-top: 17px;
+}
+.pt-20{
+    padding-top: 20px;
+}
+.pt-102{
+    padding-top: 102px;
+}
+.slider-container {
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+
+.slider-track {
+    display: flex;
+    width: 200%;
+    gap: 33px;
+    margin-top: 30px;
+}
+
+.slider-track-1 {
+    animation: slideLeft 10s linear infinite;
+}
+
+.slider-track-2 {
+    animation: slideRight 10s linear infinite;
+}
+
+@keyframes slideLeft {
+    from {
+        transform: translateX(0);
+    }
+
+    to {
+        transform: translateX(-50%);
+    }
+}
+
+@keyframes slideRight {
+    from {
+        transform: translateX(-50%);
+    }
+
+    to {
+        transform: translateX(0);
+    }
+}
+
+.slider-track img {
+    width: 12.5%;
+    height: auto;
+}
+.pb-90{
+    padding-bottom: 90px;
 }
