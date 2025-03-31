@@ -1,5 +1,7 @@
 @import url(/assets/css/root.css);
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
 /* --------line-height-------- */
+
 .lh-130{
     line-height: 130%;
 }
@@ -10,9 +12,70 @@
 }.lh-229 {
     line-height: 229%;
 }
+.fw-400 {
+    font-weight: 400;
+}
+.lh-228{
+            line-height: 228.5%;
+}
+.font-family{
+    font-family: "Press Start 2P", system-ui;
+}
 .text-uppercase{
-    
+            text-transform: uppercase;
 }
 .text-center{
     text-align: center;
+}
+/* -----------width---------- */
+.max-w-1140{
+    max-width: 1140px;
+}
+/* -------------hero-section------------- */
+.hero-section{
+    background-image: url(/assets/images/png/hero-section.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+}
+.min-vh-100{
+    min-height: 100vh;
+}
+.pt-30{
+    padding-top: 30px;
+}
+.position-relative{
+    position: relative;
+}
+.position-absolute{
+    position: absolute;
+}
+.mt-71{
+    margin-top: 71px;
+}
+.flex-column{
+    flex-direction: column;
+}
+.mt-26{
+    margin-top: 26px;
+}
+.mt-75{
+    margin-top: 75px;
+}
+.get-start{
+    top: 0;
+    padding: 16px 39px;
+}
+.top-153{
+    top: 153px !important;
+}
+.left-30{
+    left: 30px;
+}
+.right-30{
+    right: 30px;
+}
+.top-140{
+    top: 140px !important;
 }
