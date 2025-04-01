@@ -7,8 +7,7 @@
 }
 
 .lh-202 {
-    line-height: 202%;
-}
+        line-height: 202.4%;}
 
 .lh-204 {
     line-height: 204.5%;
@@ -143,7 +142,7 @@
 
 /* < !-- --------------------PEAK AT THE SUNSET------------- --> */
 .section-2 {
-    background-image: url(/assets/images/png/section-2\ -img.png);
+    background-image: url(/assets/images/png/bg-img.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -255,4 +254,42 @@ line-height: 204.5%;
 }
 .gap-10{
     gap: 10px;
+}
+
+/* ------------------ */
+.mt-183{
+    margin-top: 183px;
+}
+
+.card{
+    width: 226.55px;
+    background: none;
+    border-radius: none;
+    border: none;
+}
+.oppicity{
+    opacity: 70%;
+}
+.d{
+    /* Text */
+    /* (Founder) */
+    
+        position: absolute;
+        width: 144px;
+        height: 32px;
+        left: 191px;
+        top: 4381px;
+    
+        font-family: 'Press Start 2P';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 202.4%;
+        /* or 32px */
+        text-align: center;
+        text-transform: uppercase;
+    
+        color: #FFFFFF;
+    
+        opacity: 0.7;
 }
