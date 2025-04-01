@@ -6,3 +6,28 @@ const navbarbtn = () => {
     document.body.classList.toggle("overflow-hidden")
 }
 
+$(document).ready(function () {
+    $('.my-file').slick({
+        dots: true,
+        infinite: true,
+        speed: 250,
+        slidesToShow: 3,
+        autoplay: true,
+        autoplaySpeed: 2000,
+        prevArrow: '.prev',
+        nextArrow: '.next',
+        responsive: [
+
+            {
+                breakpoint: 576,
+                settings: {
+                    slidesToShow: 1,
+                    slidesToScroll: 1
+                }
+            }
+
+        ]
+
+    });
+});
+

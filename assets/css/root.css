@@ -37,9 +37,7 @@ background: var(--blue-color);
 .fs-12 {
     font-size: var(--text-sm);
 }
-/* .fs-6{
-    font-size: var(--text-default);
-} */
+
 .fs-14 {
     font-size: var(--text-md);
 }
@@ -62,3 +60,16 @@ background: var(--blue-color);
 .fs-32{
     font-size: var(--text-2xl-1);
 }
+@media(max-width:992px
+){
+    :root{
+        --text-default: 6px;
+            --text-sm: 12px;
+            --text-md: 14px;
+            --text-lg: 16px;
+            --text-xl: 20px;
+            --text-2xl: 24px;
+            --text-2xl-1: 32px;
+            --text-3xl: 36px;
+        }
+    }
