@@ -526,6 +526,31 @@
     padding-right: 10px;
 }
 
+.pl-40 {
+    padding-left: 40px;
+}
+
+.pr-50 {
+    padding-right: 50px;
+}
+
+@media(max-width:1199.98px) {
+    .nav-bg {
+        height: 80px;
+    }
+
+    .nav-img {
+        padding: 18px 50px;
+    }
+
+    .house-img {
+        width: 100%;
+    }
+    .vector{
+        display: unset;
+    }
+}
+
 @media(max-width:992.98px) {
     .nav-link {
         display: flex !important;
@@ -558,6 +583,10 @@
         display: flex;
         justify-content: center;
         align-items: center;
+    }
+
+    .gap-190 {
+        gap: 0;
     }
 
     .big-img {
@@ -626,13 +655,17 @@
     .max-w-1056 {
         max-width: unset;
     }
+   
+
 }
 
 @media(max-width:768.99px) {
     .display-md-none {
         display: none;
     }
-
+.col-md-none{
+    display: none!important;
+}
     .silder-md-none {
         display: block;
     }
@@ -671,6 +704,9 @@
         height: 50px;
     }
 
+    .nav-bg {
+        height: 60px;
+    }
 
 }
 
@@ -687,4 +723,11 @@
         max-width: 100%;
         height: 50px;
     }
+
+    .clouds {
+        display: none;
+    }
+        .cupboard-box {
+            padding: 10px;
+        }
 }

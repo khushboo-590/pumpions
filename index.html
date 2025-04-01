@@ -20,36 +20,60 @@
 
 <body class="bg-blue-color">
     <!-- --------------hero-section------------ -->
-    <!-- <section class=" hero-section min-vh-100 position-relative align-items-center justify-content-center">
+    <section class=" hero-section min-vh-100 position-relative align-items-center justify-content-center">
         <img src="./assets/images/png/cloud.png" class="position-absolute clouds top-153 left-30">
-        <div class="container max-w-1140 ">
-            <nav class="w-100 pt-30 ">
-                <div class="position-relative">
-                    <img src="./assets/images/png/nav-img.png" class=" w-100 ">
-                    <div class="position-absolute top-0 justify-content-center align-items-center d-flex  nav-img">
-                        <div class="d-flex align-items-center justify-content-between w-100 gap-32">
-                            <a class="" href="">
-                                <img src="./assets/images/png/logo.png" class="logo">
-                            </a>
-                            <ul id="name"
-                                class="d-flex mb-0 align-items-center gap-190 nav-link list-unstyled   justify-content-center mt-0">
-                                <ul class="d-flex justify-content-center align-items-center gap-32 list-unstyled">
-                                    <li><a class="text-decoration-none navbar-link font-family fw-400 fs-16 lh-130 links fc-black-color text-uppercase"
-                                            href="/">Home</a>
+        <div class="container max-w-1140  pt-30">
+
+            <nav class=" w-100  position-relative ">
+                <img src="./assets/images/png/nav-img.png" class="w-100 nav-bg">
+                <div
+                    class="container max-w-1140 position-absolute top-0 align-items-center justify-content-center d-flex pt-3">
+                    <div class="d-flex align-items-center justify-content-between w-100 ">
+                        <a class="z-6 pl-40" href=""><img class="logo" src="./assets/images/svg/logo.svg" alt=""></a>
+                        <ul id="name"
+                            class="d-flex mb-0 align-items-center nav-link list-unstyled  justify-content-lg-between w-100 pl-30">
+                                <li>
+                                    <ul
+                                        class="d-flex mb-0 align-items-center z-1 position-relative gap-32 list-unstyled justify-content-center flex-column flex-lg-row">
+                                        <li><a class="text-decoration-none navbar-link font-family fw-400 fs-16 lh-130 links fc-black-color text-uppercase"
+                                                href="/">Home</a>
+                                        </li>
+                                        <li><a class="text-decoration-none navbar-link font-family fw-400 fs-16 lh-130 links fc-black-color text-uppercase "
+                                                href="/">About</a>
+                                        </li>
+                                        <li><a class="text-decoration-none navbar-link font-family fw-400 fs-16 lh-130 links fc-black-color text-uppercase "
+                                                href="/">Roadmap</a></li>
+                                        <li><a class="text-decoration-none navbar-link font-family fw-400 fs-16 lh-130 links fc-black-color text-uppercase "
+                                                href="/">Team</a>
+                                        </li>
+                                        <li><a class="text-decoration-none navbar-link font-family fw-400 fs-16 lh-130 links fc-black-color text-uppercase "
+                                                href="/">Faq</a>
+                                        </li>
+                                    </ul>
+                                </li>
+
+                            <li class="z-1 d-lg-block pr-50">
+                                <ul class="d-flex list-unstyled  flex-lg-row mb-0 align-items-center gap-4">
+                                    <li>
+                                        <a class="nav-circle d-flex justify-content-center align-items-center mt-4 mt-lg-0"
+                                            href="">
+                                            <svg class="nav-svg" width="25" height="25" viewBox="0 0 25 25" fill="none"
+                                                xmlns="http://www.w3.org/2000/svg">
+                                                <path
+                                                    d="M11.458 21.6145C5.85384 21.6145 1.30176 17.0624 1.30176 11.4583C1.30176 5.85408 5.85384 1.302 11.458 1.302C11.8851 1.302 12.2393 1.65617 12.2393 2.08325C12.2393 2.51034 11.8851 2.8645 11.458 2.8645C6.71842 2.8645 2.86426 6.71867 2.86426 11.4583C2.86426 16.1978 6.71842 20.052 11.458 20.052C16.1976 20.052 20.0518 16.1978 20.0518 11.4583C20.0518 11.0312 20.4059 10.677 20.833 10.677C21.2601 10.677 21.6143 11.0312 21.6143 11.4583C21.6143 17.0624 17.0622 21.6145 11.458 21.6145Z"
+                                                    fill="white" />
+                                                <path
+                                                    d="M20.833 5.9895H14.583C14.1559 5.9895 13.8018 5.63534 13.8018 5.20825C13.8018 4.78117 14.1559 4.427 14.583 4.427H20.833C21.2601 4.427 21.6143 4.78117 21.6143 5.20825C21.6143 5.63534 21.2601 5.9895 20.833 5.9895Z"
+                                                    fill="white" />
+                                                <path
+                                                    d="M17.708 9.1145H14.583C14.1559 9.1145 13.8018 8.76034 13.8018 8.33325C13.8018 7.90617 14.1559 7.552 14.583 7.552H17.708C18.1351 7.552 18.4893 7.90617 18.4893 8.33325C18.4893 8.76034 18.1351 9.1145 17.708 9.1145Z"
+                                                    fill="white" />
+                                                <path
+                                                    d="M21.0005 23.7396C20.9171 23.7396 20.8338 23.7292 20.7609 23.7188C20.2713 23.6563 19.3859 23.3229 18.8859 21.8333C18.6255 21.0521 18.7192 20.2708 19.1463 19.6771C19.5734 19.0833 20.2921 18.75 21.115 18.75C22.1775 18.75 23.0109 19.1562 23.3859 19.875C23.7609 20.5938 23.6567 21.5104 23.063 22.3958C22.3234 23.5104 21.5213 23.7396 21.0005 23.7396ZM20.3755 21.3438C20.5525 21.8854 20.8025 22.1563 20.9692 22.1771C21.1359 22.1979 21.4484 22 21.7713 21.5313C22.0734 21.0833 22.0942 20.7604 22.0213 20.6146C21.9484 20.4688 21.6567 20.3125 21.115 20.3125C20.7921 20.3125 20.5525 20.4167 20.4171 20.5938C20.2921 20.7708 20.2713 21.0417 20.3755 21.3438Z"
+                                                    fill="white" />
+                                            </svg>
+                                        </a>
                                     </li>
-                                    <li><a class="text-decoration-none navbar-link font-family fw-400 fs-16 lh-130 links fc-black-color text-uppercase "
-                                            href="/">About</a>
-                                    </li>
-                                    <li><a class="text-decoration-none navbar-link font-family fw-400 fs-16 lh-130 links fc-black-color text-uppercase "
-                                            href="/">Roadmap</a></li>
-                                    <li><a class="text-decoration-none navbar-link font-family fw-400 fs-16 lh-130 links fc-black-color text-uppercase "
-                                            href="/">Team</a>
-                                    </li>
-                                    <li><a class="text-decoration-none navbar-link font-family fw-400 fs-16 lh-130 links fc-black-color text-uppercase "
-                                            href="/">Faq</a>
-                                    </li>
-                                </ul>
-                                <ul class="d-flex gap-11 justify-content-center align-items-center  list-unstyled">
                                     <li>
                                         <a href="/"><img src="./assets/images/png/nag-dicord.png " class="icon"
                                                 alt="social-icon"></a>
@@ -63,7 +87,10 @@
                                                 alt="social-icon"></a>
                                     </li>
                                 </ul>
-                            </ul>
+                            </li>
+                        </ul>
+                        <div class="d-flex align-items-center justify-content-center gap-16">
+
                             <div onclick="navbarbtn()"
                                 class="z-5 d-lg-none cursor-pointer cross-circle d-flex justify-content-center align-items-center">
                                 <div>
@@ -93,7 +120,7 @@
         </div>
         <img src="./assets/images/png/cloud 2.png" class="position-absolute clouds top-140 right-30">
 
-    </section> -->
+    </section> 
 
     <!-- -----------------MEET THE PUMPIONS----------- -->
 
@@ -120,7 +147,7 @@
 
     <!-- --------------------PEAK AT THE SUNSET------------- -->
 
-    <section class=" section-2 position-relative">
+     <section class=" section-2 position-relative">
         <div
             class="container z-1  position-relative pt-17 justify-content-center d-flex flex-column align-items-center">
             <h4 class=" font-family fw-400 lh-204 text-center text-uppercase fc-white-color fs-20 ">PEAK AT THE SUNSET
@@ -160,11 +187,12 @@
             </div>
         </div>
 
-    </section>
+    </section> 
+
     <!-- --------------Community + Funding + Sunset---------- -->
 
-    <!-- <section class=" ">
-        <img src="./assets/images/png/Vector.2png.png" class=" top-10 w-100  position-relative">
+     <section class=" ">
+        <img src="./assets/images/png/Vector.2png.png" class=" w-100  position-relative ">
         <div class="container max-w-1140">
             <div class="justify-content-center d-flex align-items-center  mt-16 flex-column">
                 <h4 class=" fw-400 fs-20 lh-204 font-family fc-white-color text-center text-uppercase">Community +
@@ -173,14 +201,15 @@
                     MEMBERSHIP PERKS</h2>
             </div>
         </div>
-        <div class="d-flex mt-125  gap-29 align-items-center">
-            <img src="./assets/images/png/Clubhouse.png" class="">
-            <div class="d-flex gap-10">
+        <div class="d-flex mt-125  gap-29 align-items-center flex-wrap ">
+            <img src="./assets/images/png/Clubhouse.png" class="house-img">
+            <div class="d-flex gap-10 justify-content-center align-items-center max-auto col-md-none">
                 <div class="  ">
-                    <div class="flex-column d-flex pt-6">
+                    <div class="flex-column d-flex pt-6  align-items-center justify-content-center">
                         <img src="./assets/images/png/cupboard-1.png" class="position-relative">
                         <div class="cupboard-box position-absolute ">
                             <div class="d-flex align-items-center flex-column justify-content-center ">
+                                <img src="./assets/images/png/tree.png">
                                
                                 <h6
                                     class="font-family fw-400 fs-12  lh-204 fc-black-color text-center text-uppercase pt-3">
@@ -192,11 +221,12 @@
                             </div>
                         </div>
                     </div>
-                    <div class="flex-column d-flex pt-6">
+                    <div class="flex-column d-flex pt-6 align-items-center justify-content-center">
                         <img src="./assets/images/png/cupboard-1.png" class="position-relative">
                         <div class="cupboard-box position-absolute ">
                             <div class="d-flex align-items-center flex-column justify-content-center ">
-                                
+                                                                <img src="./assets/images/png/shoap.png">
+
                                 <h6
                                     class="font-family fw-400 fs-12  lh-204 fc-black-color text-center text-uppercase pt-3">
                                     Supporting<br> Artists</h6>
@@ -210,11 +240,12 @@
                     </div>
                 </div>
                 <div class="  ">
-                    <div class="flex-column d-flex pt-6">
+                    <div class="flex-column d-flex pt-6 align-items-center justify-content-center">
                         <img src="./assets/images/png/cupboard-1.png" class="position-relative">
                         <div class="cupboard-box position-absolute ">
                             <div class="d-flex align-items-center flex-column justify-content-center ">
-                              
+                                                            <img src="./assets/images/png/key.png">
+
 
                                 <h6
                                     class="font-family fw-400 fs-12  lh-204 fc-black-color text-center text-uppercase pt-3">
@@ -228,11 +259,12 @@
                             </div>
                         </div>
                     </div>
-                    <div class="flex-column d-flex pt-6">
+                    <div class="flex-column d-flex pt-6 align-items-center justify-content-center">
                         <img src="./assets/images/png/cupboard-1.png" class="position-relative">
-                        <div class="cupboard-box position-absolute ">
+                        <div class="cupboard-box position-absolute  justify-content-center align-items-center  ">
                             <div class="d-flex align-items-center flex-column justify-content-center ">
-                           
+                                                        <img src="./assets/images/png/box.png">
+
 
 
                                 <h6
@@ -250,10 +282,78 @@
             </div>
 
         </div>
-    </section> -->
+                    <div class="my-file silder-md-none">
+                                <div class="flex-column d-flex pt-6  align-items-center justify-content-center">
+                                    <img src="./assets/images/png/cupboard-1.png" class="position-relative">
+                                    <div class="cupboard-box position-absolute ">
+                                        <div class="d-flex align-items-center flex-column justify-content-center ">
+                                            <img src="./assets/images/png/tree.png">
+                        
+                                            <h6 class="font-family fw-400 fs-12  lh-204 fc-black-color text-center text-uppercase pt-3">
+                                                IRL Events</h6>
+                                            <p class=" font-family fw-400 lh-204 fc-black-color fs-6  text-center text-uppercase max-w-135">
+                                                Enjoy the sunset w/ other pumpions in premium locations around the globe.</p>
+                        
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="flex-column d-flex pt-6 align-items-center justify-content-center">
+                                    <img src="./assets/images/png/cupboard-1.png" class="position-relative">
+                                    <div class="cupboard-box position-absolute ">
+                                        <div class="d-flex align-items-center flex-column justify-content-center ">
+                                            <img src="./assets/images/png/shoap.png">
+                        
+                                            <h6 class="font-family fw-400 fs-12  lh-204 fc-black-color text-center text-uppercase pt-3">
+                                                Supporting<br> Artists</h6>
+                                            <p class=" font-family fw-400 lh-204 fc-black-color fs-6  text-center text-uppercase max-w-135">
+                                                20% of the royalties to support art-driven projects.
+                                            </p>
+                        
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="flex-column d-flex pt-6 align-items-center justify-content-center">
+                                    <img src="./assets/images/png/cupboard-1.png" class="position-relative">
+                                    <div class="cupboard-box position-absolute ">
+                                        <div class="d-flex align-items-center flex-column justify-content-center ">
+                                            <img src="./assets/images/png/key.png">
+                        
+                        
+                                            <h6 class="font-family fw-400 fs-12  lh-204 fc-black-color text-center text-uppercase pt-3">
+                                                DAO
+                                            </h6>
+                                            <p class=" font-family fw-400 lh-204 fc-black-color fs-6  text-center text-uppercase max-w-135">
+                                                Vote on the project's direction and main initiatives.
+                                            </p>
+                        
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="flex-column d-flex pt-6 align-items-center justify-content-center">
+                                    <img src="./assets/images/png/cupboard-1.png" class="position-relative">
+                                    <div class="cupboard-box position-absolute  justify-content-center align-items-center  ">
+                                        <div class="d-flex align-items-center flex-column justify-content-center ">
+                                            <img src="./assets/images/png/box.png">
+                        
+                        
+                        
+                                            <h6 class="font-family fw-400 fs-12  lh-204 fc-black-color text-center text-uppercase pt-3">
+                                                COMMUNITY<br> FUNDING</h6>
+                                            <p class=" font-family fw-400 lh-204 fc-black-color fs-6  text-center text-uppercase max-w-135">
+                                                10% of the royalties to support community-led projects.
+                                            </p>
+                        
+                                        </div>
+                                </div>
+                            </div>
+                        </div>
+                        </div>
+                        
+
+    </section> 
     <!-- --------------PUMPMAP-------------- -->
 
-    <section>
+     <section>
         <div class="container max-w-1140 mt-125">
             <div class="row col-reverselg-center">
                 <div class="col-12 col-lg-5  lg-center">
@@ -280,11 +380,11 @@
                 </div>
             </div>
         </div>
-    </section>
+    </section> 
 
     <!-- ---------------OG PUMPIONS-------------- -->
 
-    <section>
+     <section>
         <div class="container max-w-1140 mt-183 max-auto">
             <div class="justify-content-center d-flex align-items-center">
                 <h3 class="font-family fw-400 lh-202 fs-32 fc-white-color text-center text-uppercase">OG PUMPIONS</h3>
@@ -416,7 +516,7 @@
                     GWE ARE HIRING</p>
             </div>
         </div>
-    </section>
+    </section> 
 
     <!-- ------------------------------------FAQ------------------ -->
 
@@ -595,7 +695,7 @@
     <!-- ------------------footer----------------- -->
 
 
-    <footer class="footer">
+     <footer class="footer">
         <div class="container max-w-1140 d-flex flex-column justify-content-center pt-90 align-items-center">
             <a href="/"> <img src="./assets/images/svg/pumpion.svg"></a>
             <p
