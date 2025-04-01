@@ -67,9 +67,22 @@ background: var(--blue-color);
             --text-sm: 12px;
             --text-md: 14px;
             --text-lg: 16px;
-            --text-xl: 20px;
-            --text-2xl: 24px;
-            --text-2xl-1: 32px;
-            --text-3xl: 36px;
+            --text-xl: 18px;
+            --text-2xl: 20px;
+            --text-2xl-1: 24px;
+            --text-3xl: 28px;
         }
     }
+
+        @media(max-width:768px) {
+            :root {
+                --text-default: 6px;
+                --text-sm: 8px;
+                --text-md: 10px;
+                --text-lg: 12px;
+                --text-xl: 14px;
+                --text-2xl: 16px;
+                --text-2xl-1: 20px;
+                --text-3xl: 22px;
+            }
+        }

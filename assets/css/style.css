@@ -183,9 +183,11 @@
 .cursor-pointer {
     cursor: pointer;
 }
-.gap-190{
+
+.gap-190 {
     gap: 190px;
 }
+
 .rotate-42 {
     transform: rotate(42deg);
 }
@@ -201,10 +203,13 @@
 .rotate-43 {
     transform: rotate(-43deg);
 }
+
 .button:hover {
-p{
-    color: var(--white-color);}
+    p {
+        color: var(--white-color);
+    }
 }
+
 /* < !-- --------------------PEAK AT THE SUNSET------------- --> */
 .section-2 {
     background-image: url(/assets/images/png/bg-img.png);
@@ -371,8 +376,8 @@ p{
 }
 
 .max-auto {
-    margin-left: auto;
-    margin-right: auto;
+    margin-left: auto !important;
+    margin-right: auto !important;
 }
 
 .faq-padding {
@@ -483,12 +488,50 @@ p{
         width: 100%;
     }
 
-    .section-1-box {
-        max-width: 792px;
-        height: 500px;
+    .max-w-699 {
+        max-width: unset;
     }
-    .heading-img{
+
+    .section-1-box {
+        max-width: 892px;
+    }
+
+    .heading-img {
         width: 756px;
+    }
+
+    .lh-130 {
+        line-height: 110%;
+    }
+
+    .lh-202 {
+        line-height: 180.4%;
+    }
+
+    .lh-204 {
+        line-height: 180.5%;
+    }
+
+    .lh-229 {
+        line-height: 109%;
+    }
+
+    .lh-130 {
+        line-height: 110%;
+    }
+
+
+
+    .lh-228 {
+        line-height: 168.5%;
+    }
+
+    .pt-102 {
+        padding: 60px;
+    }
+
+    .mt-125 {
+        margin-top: 70px;
     }
 }
 
@@ -507,14 +550,31 @@ p{
     }
 
     .section-1-box {
-        max-width: 500px;
-        height: 700px;
+        max-width: 600px;
+        height: 400px;
     }
-         .heading-img {
-             width: 256px;
-         }
-        .logo{
-            width: 20px;
-        }
 
+    .heading-img {
+        width: 256px;
+    }
+
+    .logo {
+        width: 20px;
+    }
+
+    .pt-102 {
+        padding: 40px;
+    }
+
+    .mt-125 {
+        margin-top: 40px;
+    }
+    
+}
+
+@media(max-width:576.99px) {
+    .section-1-box {
+        max-width: 400px;
+        height: 500px;
+    }
 }
