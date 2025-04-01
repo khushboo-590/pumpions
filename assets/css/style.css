@@ -569,6 +569,9 @@
     .mt-125 {
         margin-top: 40px;
     }
+    .max-w-735{
+        max-width: 500px;
+    }
     
 }
 
