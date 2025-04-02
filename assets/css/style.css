@@ -204,6 +204,10 @@
     transform: rotate(-43deg);
 }
 
+.links:hover {
+    color: #E8770E;
+}
+
 .button:hover {
     p {
         color: var(--white-color);
@@ -217,6 +221,7 @@
     background-repeat: no-repeat;
     background-size: cover;
     width: 100%;
+    height: 990px;
 }
 
 .pt-17 {
@@ -312,9 +317,6 @@
     padding-top: 6px;
 }
 
-.cupboard-box {
-    padding: 26px 23px;
-}
 
 .max-w-135 {
     max-width: 135px;
@@ -389,9 +391,14 @@
     width: 41px;
     height: 41px;
     border: none;
+    border-radius: 50px;
     background:
         linear-gradient(179.87deg, #E8770E 5.08%, #FCA32B 74.72%);
 
+}
+
+.max-w-1440 {
+    max-width: 1440px;
 }
 
 .mb-170 {
@@ -533,8 +540,33 @@
 .pr-50 {
     padding-right: 50px;
 }
-.max-w-700{
+
+.max-w-700 {
     max-width: 700px;
+}
+
+.start-btn {
+    padding: 18px 39px;
+}
+.slick-dots .slick-active {
+    background:#FFFFFF;
+    width: 10px;
+    height: 10px;
+    border-radius: 50px;
+        opacity: 30%;
+}
+
+
+.slick-dots li {
+    width: 10px;
+    height: 10px;
+    border-radius: 50px;
+    background: #DDE0E4;
+    top: 10px;
+}
+
+.slick-dots li button:before {
+    opacity: 0 !important;
 }
 @media(max-width:1199.98px) {
     .nav-bg {
@@ -548,12 +580,19 @@
     .house-img {
         width: 100%;
     }
-    .vector{
+
+    .vector {
         display: unset;
     }
-    .h-auto{
+
+    .h-auto {
         margin-left: auto !important;
         margin-right: auto !important;
+    }
+
+    .section-2 {
+
+        height: 790px;
     }
 }
 
@@ -579,6 +618,10 @@
 
     .col-reverse {
         flex-direction: column-reverse;
+    }
+
+    .pt-199 {
+        padding-top: 150px;
     }
 
     .center-text {
@@ -653,27 +696,67 @@
         margin-top: 70px;
     }
 
-    .faq-section {
 
-        height: 742px;
-    }
 
     .max-w-1056 {
         max-width: unset;
     }
-   
 
+    .section-2 {
+
+        height: 690px;
+    }
+
+    .left-30 {
+        left: 0;
+    }
+
+    .right-30 {
+        right: 0;
+    }
+
+    .clouds {
+        width: 100px;
+    }
+
+    .mt-183 {
+        margin-top: 150px;
+    }
+
+    .hero-section {
+        min-height: 700px !important;
+    }
+
+    .button-img {
+        width: 200px;
+    }
+
+    .get-start {
+        top: 0;
+        padding: 16px 8px;
+    }
+
+    .mt-75,
+    .mt-71 {
+        margin-top: 50px;
+    }
 }
 
 @media(max-width:768.99px) {
     .display-md-none {
         display: none;
     }
-.col-md-none{
-    display: none!important;
-}
+
+    .col-md-none {
+        display: none !important;
+    }
+
     .silder-md-none {
         display: block;
+    }
+
+    .pt-199 {
+        padding-top: 100px;
     }
 
     .my-file.slick-track {
@@ -681,9 +764,15 @@
         gap: 10px;
     }
 
+    .hero-section {
+        min-height: 400px !important;
+    }
+
     .section-1-box {
         height: 270px;
     }
+
+
 
     .heading-img {
         width: 256px;
@@ -701,14 +790,40 @@
         margin-top: 40px;
     }
 
-    .gap-111 {
-        gap: 70px;
-    }
 
-  
+
+    .section-2 {
+
+        height: 590px;
+    }
 
     .nav-bg {
         height: 60px;
+    }
+
+    .mt-183 {
+        margin-top: 100px;
+    }
+
+    .faq-section {
+        height: 742px;
+    }
+
+    .button-img {
+        width: 150px;
+    }
+
+    .get-start {
+        padding: 8px;
+    }
+
+    .mt-75,
+    .mt-71 {
+        margin-top: 30px;
+    }
+
+    .accordion-item {
+        margin-bottom: 20px;
     }
 
 }
@@ -719,17 +834,51 @@
     }
 
     .gap-111 {
-        gap: 5px;
+        gap: 15px;
     }
 
-   .max-w-735 {
-       height: 50px;
-   }
+    .pt-199 {
+        padding-top: 20px;
+    }
+
+    .max-w-735 {
+        height: 50px;
+    }
+
+    .section-2 {
+
+        height: 520px;
+    }
+
+
+    .mt-75,
+    .mt-71 {
+        margin-top: 15px;
+    }
 
     .clouds {
-        display: none;
+        width: 50px;
     }
-        .cupboard-box {
-            padding: 10px;
+
+    .faq-section {
+        height: 642px;
+    }
+
+    .cupboard-box {
+        padding: 10px;
+    }
+
+    .accordion-item {
+        margin-bottom: 15px;
+    }
+
+    .plus-icon-box {
+        svg {
+            width: 10px;
         }
+    }
+
+    .pl-30 {
+        padding-left: 15px !important;
+    }
 }

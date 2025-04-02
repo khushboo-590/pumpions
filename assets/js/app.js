@@ -11,7 +11,7 @@ $(document).ready(function () {
         dots: true,
         infinite: true,
         speed: 250,
-        slidesToShow: 3,
+        slidesToShow: 4,
         autoplay: true,
         autoplaySpeed: 2000,
         prevArrow: '.prev',
@@ -20,14 +20,14 @@ $(document).ready(function () {
             {
                 breakpoint: 992,
                 settings: {
-                    slidesToShow: 2,
+                    slidesToShow: 3,
                     slidesToScroll: 1
                 }
             },
             {
                 breakpoint: 576,
                 settings: {
-                    slidesToShow: 1,
+                    slidesToShow: 2,
                     slidesToScroll: 1
                 }
             },
